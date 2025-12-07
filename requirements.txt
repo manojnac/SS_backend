@@ -1,3 +1,4 @@
+streamlit
 fastapi
 uvicorn[standard]
 python-multipart
@@ -10,3 +11,4 @@ joblib
 mne
 shap
 firebase-admin
+google-cloud-firestore
