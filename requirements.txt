@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+numpy
+pandas
+scikit-learn==1.6.1
+xgboost
+joblib
+mne
+shap
+firebase-admin
