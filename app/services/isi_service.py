@@ -5,10 +5,11 @@ def compute_isi(responses):
     total = sum(responses)
     severity = get_severity(total, ISI_SEVERITY)
     
-     db.collection("users").document(user_id).collection("assessments").document("isi").set({
+    db.collection("users").document(user_id).collection("assessments").document("isi").set({
         "responses": responses,
         "score": total,
         "severity": severity
     })
 
     return total, severity
+
